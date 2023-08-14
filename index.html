@@ -1,0 +1,540 @@
+<!DOCTYPE html>
+<html lang="en">
+<head> 
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ONLINE STORE</title>
+
+    <!-- Swiper slider -->
+    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css"/>
+
+    <!-- font awesome cdn link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <!-- style.css link -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- header section starts -->
+    <header class="header">
+        <a href="#" class="logo"> <i class="fas fa-shopping-basket"></i> Online Store </a>
+
+        <nav class="navbar">
+            <a href="#home">home</a>
+            <a href="#features">features</a>
+            <a href="#products">products</a>
+            <a href="#categories">categories</a>
+            <a href="#review">review</a>
+            <a href="#blogs">blogs</a>
+        </nav>
+
+        <div class="icons">
+        <div class="fas fa-bars" id="menu-btn"></div>
+        <div class="fas fa-search" id="search-btn"></div>
+        <div class="fas fa-shopping-cart" id="cart-btn"></div>
+        <div class="fas fa-user" id="login-btn"></div>
+        </div>
+
+        <form action="" class="search-form">
+            <input type="search" id="search-box" placeholder="search here...">
+            <label for="search-box" class="fas fa-search"></label>
+        </form>
+
+        <div class="shopping-cart">
+            <div class="box">
+                <i class="fas fa-trash"></i>
+                <img src="images/Gajraj Hmt.png" alt="">
+                <div class="content">
+                    <h3> Gajraj Hmt(25kg)</h3>
+                    <span class="price">₹1450/-</span>
+                    <span class="quantity">qty: 1</span>
+                </div>
+            </div>
+
+            <div class="box">
+                <i class="fas fa-trash"></i>
+                <img src="images/Kurnool.png" alt="">
+                <div class="content">
+                    <h3>Kurnool(25kg)</h3>
+                    <span class="price">₹1500/-</span>
+                    <span class="quantity">qty: 1</span>
+                </div>
+            </div>
+
+            <div class="total"> Total:₹2950/-</div>
+            <a href="#" class="btn">checkout</a>
+        </div>
+
+        <form action="" class="login-form">
+            <h3>Login now</h3>
+            <input type="email" placeholder="your email" class="box">
+            <input type="password" placeholder="your password" class="box">
+            <p> Forgot your passord <a href="#">click here</a> </p>
+            <p> New user <a href="#">Create now</a> </p>
+            <input type="submit" value="login now" class="btn">
+        </form>
+
+
+    </header>
+    <!-- header section ends -->
+
+<!-- Home section starts -->
+<section class="home" id="home">
+    <div class="content">
+        <h3>You pay for the <span>QUALITY</span> </h3>
+        <a href="#" class="btn">shop now</a>   
+    </div>
+</section>
+<!-- Home section ends -->
+
+<!-- features section start -->
+
+<section class="features" id="features">
+    <h1 class="heading"> Our <span> Features </span> </h1>
+
+    <div class="box-container">
+
+        <div class="box">
+            <img src="images/Quality.png" alt="">
+            <h3>Quality Assured Products <h3>
+            <p> Fresh and Approved Products </p>
+            <a href="#" class="btn">read more</a>
+        </div>
+
+        <div class="box">
+            <img src="images/delivery.png" alt="">
+            <h3> Free Delivery</h3>
+            <p> On above ₹2,500 </p>
+            <a href="#" class="btn">read more</a>
+        </div>
+
+        <div class="box">
+            <img src="images/Payment.jpg" alt="">
+            <h3>Easy payments</h3>
+            <p> Secured payments </p>
+            <a href="#" class="btn">read more</a>
+        </div>
+
+    </div>
+</section>
+
+<!-- features section ends -->    
+
+
+
+
+<!-- products section starts -->
+
+<section class="products" id="products">
+
+    <h1 class="heading"> our <span>products</span> </h1>
+
+    <div class="swiper product-slider">
+       
+        <div class="swiper-wrapper">
+
+            <div class="swiper-slide box">
+                <img src="images/Cashew.jpg" alt="">
+                <h3>Cashew</h3>
+                <div class="price"> ₹800/-(kg)</div>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <a href="#" class="btn">add to cart</a>
+            </div>
+            
+            <div class="swiper-slide box">
+                <img src="images/Toor_Dal.jpg" alt="">
+                <h3>Toor dal/Aarhar Dal</h3>
+                <div class="price"> ₹160/-(kg)</div>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <a href="#" class="btn">add to cart</a>
+            </div>
+
+            <div class="swiper-slide box">
+                <img src="images/Atta.jpg" alt="">
+                <h3>Chakki Atta </h3>
+                <div class="price"> ₹40/-(kg)</div>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <a href="#" class="btn">add to cart</a>
+            </div>
+
+            <div class="swiper-slide box">
+                <img src="images/Gajraj Hmt.png" alt="">
+                <h3>Gajraj Hmt(25kg) </h3>
+                <div class="price"> ₹1450/-</div>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <a href="#" class="btn">add to cart</a>
+            </div>
+
+            <div class="swiper-slide box">
+                <img src="images/Kurnool.png" alt="">
+                <h3> Kurnool(25kg)</h3>
+                <div class="price"> ₹1500/-</div>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <a href="#" class="btn">add to cart</a>
+            </div>
+
+
+        </div>    
+
+    </div>
+
+    <div class="swiper product-slider">
+       
+        <div class="swiper-wrapper">
+
+            <div class="swiper-slide box">
+                <img src="images/Gold_drop.jpg" alt="">
+                <h3>Gold Drop oil</h3>
+                <div class="price"> ₹1750/-(15 liters)</div>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <a href="#" class="btn">add to cart</a>
+            </div>
+
+            <div class="swiper-slide box">
+                <img src="images/Surf_Excel_Soap.jpg" alt="">
+                <h3>Surf Excel Soap</h3>
+                <div class="price"> ₹35/-(piece)</div>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <a href="#" class="btn">add to cart</a>
+            </div>
+
+            <div class="swiper-slide box">
+                <img src="images/Mysore_Sandal_Soap.jpg" alt="">
+                <h3>Mysore Sandal Soap</h3>
+                <div class="price"> ₹42/-(piece)</div>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <a href="#" class="btn">add to cart</a>
+            </div>
+
+            <div class="swiper-slide box">
+                <img src="images/Sugar.jpg" alt="">
+                <h3>Sugar</h3>
+                <div class="price"> ₹44/-(kg)</div>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <a href="#" class="btn">add to cart</a>
+            </div>
+
+
+
+        </div>    
+
+    </div>
+
+</section>
+<!-- products section ends -->
+
+<!-- categories section starts -->
+
+<section class="categories" id="categories">
+    <h1 class="heading"> product <span>categories</span> </h1>
+    <div class="box-container">
+
+        <div class="box">
+            <img src="images/C_Rice.jpg" alt="">
+            <h3>Rice</h3>
+            <p>up to 2% off</p>
+            <a href="#" class="btn">shop now</a>
+        </div>
+
+        <div class="box">
+            <img src="images/C_Atta.jpg" alt="">
+            <h3>Flours,Maida & Sooji</h3>
+            <p>up to 2% off</p>
+            <a href="#" class="btn">shop now</a>
+        </div>
+
+        <div class="box">
+            <img src="images/C_Pulses.jpg" alt="">
+            <h3>Dals,Pulses & Grains</h3>
+            <p>up to 2% off</p>
+            <a href="#" class="btn">shop now</a>
+        </div>
+
+        <div class="box">
+            <img src="images/C_Salt.jpg" alt="">
+            <h3>Sugar,Jaggery & salt</h3>
+            <p>up to 2% off</p>
+            <a href="#" class="btn">shop now</a>
+        </div>
+
+        <div class="box">
+            <img src="images/C_oil.jpg" alt="">
+            <h3>Oil,Ghee & Vanaspati(Dalda)</h3>
+            <p>up to 2% off</p>
+            <a href="#" class="btn">shop now</a>
+        </div>
+
+        <div class="box">
+            <img src="images/C_Masala.jpg" alt="">
+            <h3>Masala & Whole spices</h3>
+            <p>up to 2% off</p>
+            <a href="#" class="btn">shop now</a>
+        </div>
+
+        <div class="box">
+            <img src="images/C_Cleaning.jpg" alt="">
+            <h3>Cleaning Laundry</h3>
+            <p>up to 2% off</p>
+            <a href="#" class="btn">shop now</a>
+        </div>
+
+        <div class="box">
+            <img src="images/C_Hair.jpg" alt="">
+            <h3>Hair Care</h3>
+            <p>up to 2% off</p>
+            <a href="#" class="btn">shop now</a>
+        </div>
+
+        <div class="box">
+            <img src="images/C_Bath.png" alt="">
+            <h3>Bath & Body</h3>
+            <p>up to 1% off</p>
+            <a href="#" class="btn">shop now</a>
+        </div>
+
+
+    </div>
+</section>
+
+<!-- categories section Ends -->
+
+
+<!-- Reviews  Section Start-->
+<section class="review" id="review">
+
+    <h1 class="heading">customer's <span>review</span> </h1>
+    <div class="swiper review-slider">
+
+        <div class="swiper-wrapper ">
+
+            <div class="swiper-slide box">
+                <img src="images/R_Sarah_Johnson.png" alt="">
+                <p>I'm delighted with my shopping experience, As a busy mom, their online kirana store has been a 
+                    lifesaver.The website is so easy to navigate, and I can quickly find all the items I need for
+                     my family.</p>
+                <h3>Sarah Johnson</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt "></i>
+                </div>    
+            </div>
+
+            <div class="swiper-slide box">
+                <img src="images/R_John_Smith.jpg" alt="">
+                <p>Easy to select the items for household essentials, they have it all. 
+                    I particularly appreciate their competitive prices. The delivery is quick, and it's a pleasure shopping at Online Store, and I'll definitely be a loyal customer.</p>
+                <h3>John Smith</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt "></i>
+                </div>    
+            </div>
+
+            <div class="swiper-slide box">
+                <img src="images/R_Emily_Patel.png" alt="">
+                <p>Online Store is a reliable kirana store with the range of products. The website is straightforward to use, 
+                    and I appreciate the quick checkout process.I'm satisfied with Online Store, and I'll continue shopping with them.</p>
+                <h3>Emily Patel</h3>
+                <div class="stars">
+                    <i class="fas fa-star checked"></i>
+                    <i class="fas fa-star checked"></i>
+                    <i class="fas fa-star checked"></i>
+                    <i class="fas fa-star checked"></i>
+                </div>    
+            </div>
+
+            <div class="swiper-slide box">
+                <img src="images/R_Michael_Lee.jpg" alt="">
+                <p>Online Store is my favorite online grocery store! The website is intuitive.
+                    They pack the items carefully. Online Store has made my grocery shopping so convenient, 
+                    and I highly recommend it to everyone looking for a seamless online shopping experience.</p>
+                <h3>Michael Lee</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt "></i>
+                </div>    
+            </div>
+
+        </div>
+    </div>
+</section>
+<!-- Reviews  Section Ends-->
+
+<!-- blogs section begins -->
+<section class="blogs" id="blogs">
+    <h1 class="heading"> our <span>blogs</span> </h1>
+    <div class="box-container">
+
+        <div class="box">
+            <img src="images/B_Finger_tip.jpg" alt="">
+            <div class="content">
+                <div class="icons">
+                    <a href="#"> <i class="fas fa-calendar"></i> 1st may 2021 </a>
+                </div>
+                <h3>Convenience at Your Fingertips: Shop Groceries Online!</h3>
+                <p>Discover the ultimate convenience of shopping for groceries from the comfort of your home
+                    with our online store. Skip the hassle of crowded supermarkets and long queues.
+                    Browse our products easily, pantry essentials, and household items, all available 
+                    at your fingertips.</p>
+                <a href="#" class="btn">read more</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="images/B_Way.jpg" alt="">
+            <div class="content">
+                <div class="icons">
+                    <a href="#"> <i class="fas fa-calendar"></i> 1st may 2021 </a>
+                </div>
+                <h3>Personalized Shopping Experience: Your Online Store, Your Way!</h3>
+                <p>We believe in providing a personalized shopping experience that caters to your unique preferences.
+                    Our user-friendly platform ensures a seamless browsing and checkout process, saving you time
+                    and effort.Let us be your go-to destination for groceries tailored to your needs, making shopping a breeze every time!</p>
+                <a href="#" class="btn">read more</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="images/B_Price.jpg" alt="">
+            <div class="content">
+                <div class="icons">
+                    <a href="#"> <i class="fas fa-calendar"></i> 1st may 2021 </a>
+                </div>
+                <h3>Unbeatable Rates: Your One-Stop Online Store for Savings!</h3>
+                <p>We take pride in offering the best rates on a wide range of grocery essentials. 
+                    Say goodbye to expensive shopping trips and hello to incredible savings on every purchase. With our commitment to affordability, we ensure 
+                    that your budget stretches further without compromising on quality.</p>
+                <a href="#" class="btn">read more</a>
+            </div>
+        </div>
+
+    </div>
+</section>
+<!-- blogs section ends -->
+
+<!-- footer section begins  -->
+<section class="footer">
+    <div class="box-container">
+
+        <div class="box">
+            <h3> groco <i class="fas fa-shopping-basket"></i></h3>
+            <p></p>
+            <div class="share">
+                <a href="#" class="fab fa-facebook-f"></a>
+                <a href="#" class="fab fa-twitter"></a>
+                <a href="#" class="fab fa-instagram"></a>
+                <a href="#" class="fab fa-linkedin"></a>
+            </div>
+        </div>
+
+        <div class="box">
+            <h3>contact info</h3>
+            <a href="#" class="links"> <i class="fas fa-phone"></i>+91 0000000000</a>
+            <a href="#" class="links"> <i class="fas fa-phone"></i>+91 1111111111</a>
+            <a href="#" class="links"><i class="fas fa-envelop"></i>abc@gmail.com</a>
+            <a href="#" class="links"><i class="fas fa-map-marker-alt"></i>HYD-TEL-INDIA</a>
+        </div>
+
+        <div class="box">
+            <h3>quick links</h3>
+            <a href="#home" class="links"> <i class="fas fa-arrow-right"></i> home</a>
+            <a href="#features" class="links"> <i class="fas fa-arrow-right"></i> features</a>
+            <a href="#products" class="links"> <i class="fas fa-arrow-right"></i> products</a>
+            <a href="#categories" class="links"> <i class="fas fa-arrow-right"></i> categories</a>
+            <a href="#review" class="links"> <i class="fas fa-arrow-right"></i> review</a>
+            <a href="#blogs" class="links"> <i class="fas fa-arrow-right"></i> blogs</a>
+        </div>
+
+        <div class="box">
+            <h3>newsletter</h3>
+            <p>subscribe for latest updates</p>
+            <input type="email" placeholder="your email" class="email">
+            <input type="submit" value="subscribe" class="btn">
+            <img src="images/Methods.jpg" class="payment-img" alt="">
+        </div>
+
+    </div>
+
+    <div class="credit">create by <span> Mr.Neelesh kumawath </span> | all rights reserved </div>
+        
+   
+</section>
+<!-- footer section ends  -->
+
+
+
+
+
+
+
+<script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+    <!-- cutsom js file link -->
+    <script src="script.js"></script>
+</body>
+</html>
+
+
